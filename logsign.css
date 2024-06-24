@@ -1,0 +1,95 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(logim.jpg);
+	width:500px;
+	height:500px;
+	background-size:Cover;
+	font-family:sans-serif;
+}
+
+.form{
+	
+	width:300px;
+	height:510px;
+	background:transparent;
+	color: white;
+	background-color:rgba(0,0,0,0.5);
+	top:50%;
+	left: 75%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:80px 30px;
+	border-radius:20px;
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:30px;
+}
+.form p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.form input[type="text"],[type="password"]{
+	border:none;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:17px;
+}
+.data input[type="text"],[type="password"],[type="email"]{
+	border:none;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:17px;
+}
+.form input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:rgba(234, 234, 236, 0.548);
+	color:white;
+	font-size:18px;
+	border-radius:20px;
+	position:absolute;
+	left:60px;
+	width:180px;
+}
+.form input[type="submit"]:hover{
+	cursor:pointer;
+	background:darkgrey;
+	color:red;
+}
+
+
+.data label{
+	
+	margin:0;
+	padding:0;
+	font-weight:bold;
+
+}
+.form label{
+	
+	margin:0;
+	padding:0;
+	font-weight:bold;
+
+}
+
+.form a{
+	color:white;
+	text-decoration:none;
+	font-size:17px;
+	}
+.form a:hover{
+	cursor:pointer;
+	color:red;
+}

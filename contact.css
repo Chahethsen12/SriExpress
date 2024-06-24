@@ -1,0 +1,113 @@
+
+body{
+    margin: 0;
+}
+.conUs_header button{
+    background-color: black;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+	border: solid gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 300px;
+    left: 450px;
+}
+.conUs_header button:hover{
+    background-color: #000000;
+    color: red;
+	border: solid red;
+}
+.contactUs{
+	min-height: 100px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: url("A.jpg")no-repeat center center/cover;
+    height:700px;
+}
+.contactUs form{
+	width: 670px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(225, 225, 225, 0.1);
+	backdrop-filter: blur(10px);
+	flex-wrap: wrap;
+	margin: 70px;
+}
+.contactUs form h4{
+	color:black;
+	font-weight: 500;
+	margin-top: 20px;
+	width: 500px;
+	text-align: center;
+	font-size:  28px ;
+}
+.contactUs form input{
+	width: 290px;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	border:none;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background: none;
+	border-bottom: 2px solid black;
+}
+.contactUs form input::placeholder{
+	color: black;
+}
+.contactUs form #lastName,
+.contactUs form #mobile{
+	margin-left: 20px;
+}
+.contactUs form h4{
+	color: black;
+	font-weight: 300;
+	width: 600px;
+	margin-top: 20px;
+}
+.contactUs form textarea{
+	background:none ;
+	border: none;
+	border-bottom: 2px solid black;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 10px;
+	outline: none;
+	min-width: 600;
+	max-width: 600px;
+	min-height: 80px;
+	max-height: 80px;
+}
+textarea::webkit-scrollbar{
+	width: 1em;
+
+}
+
+textarea::webkit-scrollbar-thumb{
+	background-color: rgba(194, 194, 194, 0.713);
+}
+.contactUs form #button{
+	border: none;
+	background: black;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	width: 100px;
+	padding: 0;
+	margin-right: 500px;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+.contactUs form #button:hover{
+	color: red;
+
+}

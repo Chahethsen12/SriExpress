@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(R.png);
+}
+.aboutUs_header button{
+    background-color: white;
+    color:black;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+.aboutUs_header button:hover{
+    background-color: white;
+    color: red;
+    border: solid red;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    border: solid gray;
+    
+    
+}
+h1 {
+    color:black;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 20px;
+    color:black;
+}
